@@ -1,0 +1,56 @@
+/* Esto cambia el fondo y el tipo de letra de toda la página */
+body {
+    background-color: #f0f8ff; /* Un azulito súper claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center; /* Centra todos los textos */
+    padding: 50px;
+    color: #333333;
+}
+
+/* Hacemos que el título llame la atención */
+h1 {
+    color: #ff6b6b; /* Un rojo sandía */
+    font-size: 40px;
+}
+
+/* Hacemos que la palabra secreta se vea grande y separada */
+#palabra-oculta {
+    font-size: 50px;
+    letter-spacing: 15px; /* Separa los guiones para que no se peguen */
+    color: #4a4e69;
+    margin-bottom: 40px;
+}
+
+/* Ponemos guapa la cajita donde van a escribir */
+input {
+    padding: 12px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 8px; /* Redondea las esquinas */
+    width: 250px;
+    margin-right: 10px;
+}
+
+/* Le damos estilo al botón para que den ganas de picarle */
+button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #4caf50; /* Un verde chido */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer; /* Cambia la flecha por una manita cuando pasas el mouse */
+    transition: 0.3s; /* Hace que el cambio de color sea suave */
+}
+
+/* Un efecto para cuando pasas el mouse por encima del botón */
+button:hover {
+    background-color: #45a049;
+}
+
+/* El texto de los mensajes (bien o mal) */
+#mensaje {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
